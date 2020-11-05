@@ -14,7 +14,7 @@ public class Building {
 		//TODO: Use setter (moveCharacter) to set these
 		this.cop_position[0] = 0;
         this.cop_position[1] = 0;
-        this.robber_position[0] = ROOMS_WIDE-1;
+        this.robber_position[0] = 0;	//To later become ROOMS_WIDE-1
         this.robber_position[1] = ROOMS_LONG-1;
 
 		/*ROOM LAYOUT when ROOMS_WIDE = 6, ROOMS_LONG = 4
