@@ -1,7 +1,17 @@
 
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
-
+/**
+ * 
+ * COPS AND ROBBERS GAME MADE GROUP 3 (FRRISP)
+ * Frimpong
+ * Irene
+ * Ronnie 
+ * Rohan
+ * Stanley
+ * Philip
+ * 
+ */
 public class Game {
   public static Scanner scanner = new Scanner(System.in);
   // data
