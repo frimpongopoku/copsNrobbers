@@ -1,30 +1,38 @@
+import java.util.Scanner;
+
 public class Character {
 	//data (name, role (cop/robber))
 	String name;
-	Boolean isCop; //if true> cop else is robber
+  Boolean isCop; //if true> cop else is robber
+  Scanner scanner;
 
 
-	//Methods
-	public Character(Boolean characterIsCop) {
-		this.isCop = characterIsCop;
+	// //Methods
+	// public Character(Boolean characterIsCop) {
+	// 	this.isCop = characterIsCop;
 
-		//TODO: Use Appropriate input methods to query the user for their name instea
-		String characterName;
-		if (this.isCop) { 
-			characterName = "Sergeant Okonkwo";
-			}
-		else {
-			characterName = "Abdallah TheRobber";
-		}
+	// 	//TODO: Use Appropriate input methods to query the user for their name instea
+	// 	String characterName;
+	// 	if (this.isCop) { 
+	// 		characterName = "Sergeant Okonkwo";
+	// 		}
+	// 	else {
+	// 		characterName = "Abdallah TheRobber";
+	// 	}
 
-		this.name = characterName;
-	}
+	// 	this.name = characterName;
+	// }
 
 	public Character(String characterName, Boolean characterIsCop) {
 		this.name = characterName;
 		this.isCop = characterIsCop; 
 	}
 
+  public String takeUserInput(displayText){
+    
+
+    return null;
+  }
 	/*Taketurn
 	 * Allows a player to take a turn
 	 * Prompts player to give an input (s, gn, ge, gs, gw or q)
@@ -32,7 +40,7 @@ public class Character {
 	 * If the input is invalid, asks the player to try again
 	 */
 	int takeTurn() {
-		System.out.print("\n\nStarting to take turn\n\n");
+		
 		return 1;
 	}
 
